@@ -5,7 +5,7 @@ export default function Title() {
 
   return (
     <div>
-      <h1 className="text-white text-4xl mb-16 text-center font-typewriter">
+      <h1 className="text-white text-5xl mb-16 text-center font-typewriter">
         <ReactTyped
           strings={["Hello, I'm Adam. I'm an aspiring front end developer."]}
           typeSpeed={100}
