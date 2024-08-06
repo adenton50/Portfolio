@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./App.css";
 import Welcome from "./Welcome";
 import About from "./About";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 function App() {
   const [currentSection, setCurrentSection] = useState("welcome");
@@ -10,7 +12,9 @@ function App() {
       {currentSection === "welcome" && (
         <Welcome setCurrentSection={setCurrentSection} />
       )}
-      {currentSection === "about" && <About />}
+      {currentSection === "about" && <About currentSection={currentSection} />}
+      {currentSection === "projects" && <Projects />}
+      {currentSection === "contact" && <Contact />}
     </div>
   );
 }

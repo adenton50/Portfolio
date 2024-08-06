@@ -7,11 +7,11 @@ import CSSLogo from "./CSSLogo";
 import TailwindLogo from "./TailwindLogo";
 import Bootstrap from "./Bootstrap";
 import GitLogo from "./GitLogo";
-export default function About() {
+export default function About({ currentSection }) {
   return (
     <div>
-      <Navbar />
-      <div className="flex justify-center items-center flex-col mt-16 px-16 gap-12">
+      <Navbar currentSection={currentSection} />
+      <div className="flex justify-center items-center flex-col mt-8 px-16 gap-12">
         <div>
           <h1 className="text-5xl text-white font-medium mb-2 text-center">
             About
@@ -45,15 +45,15 @@ export default function About() {
             are both user-friendly and performant. I am excited to contribute my
             skills and creativity to innovative projects and collaborate with a
             team that shares my enthusiasm for building impactful digital
-            experiences.
+            experiences. My skills include:
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-8 p-4">
-        <ReactLogo />
-        <JavaScriptLogo />
+      <div className="grid grid-cols-4 gap-8 p-4 w-1/2 mx-auto mt-8">
         <HTMLLogo />
         <CSSLogo />
+        <JavaScriptLogo />
+        <ReactLogo />
         <TailwindLogo />
         <Bootstrap />
         <GitLogo />

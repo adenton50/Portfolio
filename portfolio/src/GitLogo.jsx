@@ -1,18 +1,18 @@
 export default function GitLogo() {
   return (
-    <div className="border-2 border-orange-600">
+    <div className="border-2 border-orange-600 rounded-xl flex items-center justify-center flex-col p-2">
       <svg
-        width="125px"
-        height="125px"
+        width="8rem"
+        height="8rem"
         viewBox="0 0 32 32"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
         <g
           id="SVGRepo_tracerCarrier"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         ></g>
         <g id="SVGRepo_iconCarrier">
           {" "}
@@ -26,6 +26,7 @@ export default function GitLogo() {
           ></path>{" "}
         </g>
       </svg>
+      <p className="text-white">Git</p>
     </div>
   );
 }

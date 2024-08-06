@@ -1,21 +1,21 @@
 export default function Bootstrap() {
   return (
-    <div className="border-2 border-orange-600">
+    <div className="border-2 border-orange-600 rounded-xl flex items-center justify-center flex-col p-2">
       <svg
-        width="125px"
-        height="125px"
+        width="8rem"
+        height="8rem"
         viewBox="0 0 256 256"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
         preserveAspectRatio="xMidYMid"
         fill="#000000"
       >
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
         <g
           id="SVGRepo_tracerCarrier"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         ></g>
         <g id="SVGRepo_iconCarrier">
           {" "}
@@ -36,6 +36,7 @@ export default function Bootstrap() {
           </g>{" "}
         </g>
       </svg>
+      <p className="text-white">Bootstrap</p>
     </div>
   );
 }
