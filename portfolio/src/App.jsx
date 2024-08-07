@@ -12,9 +12,18 @@ function App() {
       {currentSection === "welcome" && (
         <Welcome setCurrentSection={setCurrentSection} />
       )}
-      {currentSection === "about" && <About currentSection={currentSection} />}
-      {currentSection === "projects" && <Projects />}
-      {currentSection === "contact" && <Contact />}
+      {currentSection === "about" && (
+        <About
+          setCurrentSection={setCurrentSection}
+          currentSection={currentSection}
+        />
+      )}
+      {currentSection === "projects" && (
+        <Projects setCurrentSection={setCurrentSection} />
+      )}
+      {currentSection === "contact" && (
+        <Contact setCurrentSection={setCurrentSection} />
+      )}
     </div>
   );
 }

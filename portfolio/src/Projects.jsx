@@ -1,9 +1,12 @@
 import Navbar from "./Navbar";
 
-export default function Projects() {
+export default function Projects({ setCurrentSection }) {
   return (
     <div>
-      <Navbar />
+      <Navbar
+        currentSection={"projects"}
+        setCurrentSection={setCurrentSection}
+      />
     </div>
   );
 }
