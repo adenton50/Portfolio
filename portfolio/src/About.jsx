@@ -25,18 +25,22 @@ export default function About({ currentSection, setCurrentSection }) {
         <UserIcon />
         <div className="w-1/2">
           <p className="text-white text-lg">
-            As an aspiring front-end web developer, I am passionate about
-            creating intuitive and visually appealing user interfaces that
-            enhance user experiences. With a strong foundation in HTML, CSS, and
-            JavaScript, I thrive on turning design concepts into responsive,
-            functional web applications. I am continually exploring new
-            technologies and frameworks to stay on the cutting edge of web
-            development. My keen eye for detail, coupled with a commitment to
-            writing clean and efficient code, drives me to build solutions that
-            are both user-friendly and performant. I am excited to contribute my
-            skills and creativity to innovative projects and collaborate with a
-            team that shares my enthusiasm for building impactful digital
-            experiences. My skills include:
+            Transitioning from a manufacturing background to pursuing a career
+            as a front-end developer has been a transformative journey for me.
+            My experience in manufacturing taught me the value of precision,
+            problem-solving, and efficiency—skills that have seamlessly
+            translated into coding. Driven by a fascination with technology and
+            a desire to create visually compelling and user-friendly web
+            experiences, I embarked on a self-taught coding journey. Through
+            dedicated study and hands-on projects, I’ve gained proficiency in
+            HTML, CSS, JavaScript, React, Tailwind, Bootstrap and Git. Learning
+            to craft responsive and dynamic web interfaces. This shift from a
+            hands-on, mechanical environment to the abstract and creative realm
+            of coding has not only expanded my skill set but also ignited a
+            passion for designing intuitive digital experiences. As an aspiring
+            front-end developer, I am excited to leverage my background in
+            manufacturing to bring a unique perspective and strong
+            problem-solving skills to the tech industry.
           </p>
         </div>
       </div>

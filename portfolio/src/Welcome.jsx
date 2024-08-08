@@ -7,7 +7,7 @@ export default function Welcome({ setCurrentSection }) {
       <Title />
       <button
         type="button"
-        className="flex flex-row items-center gap-2 border-4 border-red-600 rounded-md px-8 py-4 text-red-500 text-xl hover:shadow-red-2xl transition-shadow duration-300"
+        className="flex flex-row items-center gap-2 border-4 border-orange-600 rounded-md px-8 py-4 text-orange-500 text-xl hover:shadow-red-2xl transition-shadow duration-300"
         onClick={() => {
           setCurrentSection("about");
         }}
