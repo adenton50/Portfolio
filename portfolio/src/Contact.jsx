@@ -1,6 +1,32 @@
 import Navbar from "./Navbar";
+import { useState } from "react";
+import React from "react";
 
 export default function Contact({ setCurrentSection }) {
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "04ea8494-68bf-45ce-a2ee-756ab8bc6335");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
   return (
     <div>
       <Navbar
@@ -20,11 +46,11 @@ export default function Contact({ setCurrentSection }) {
             Have question or want to work together? Leave your details below and
             I'll get back to you as soon as possible.
           </p>
-          <form className="space-y-8">
+          <form className="space-y-8" onSubmit={onSubmit}>
             <div>
               <input
                 type="text"
-                id="name"
+                name="name"
                 className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
                 placeholder="Name"
                 required
@@ -33,7 +59,7 @@ export default function Contact({ setCurrentSection }) {
             <div>
               <input
                 type="email"
-                id="email"
+                name="email"
                 className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 "
                 placeholder="Email"
                 required
@@ -41,7 +67,7 @@ export default function Contact({ setCurrentSection }) {
             </div>
             <div className="sm:col-span-2">
               <textarea
-                id="message"
+                name="message"
                 rows="6"
                 className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
                 placeholder="Your message..."
@@ -57,6 +83,7 @@ export default function Contact({ setCurrentSection }) {
               </button>
             </div>
           </form>
+          <span className="text-white">{result}</span>
         </div>
       </section>
     </div>

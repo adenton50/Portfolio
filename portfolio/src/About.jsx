@@ -24,7 +24,7 @@ export default function About({ currentSection, setCurrentSection }) {
         </div>
         <UserIcon />
         <div className="w-1/2">
-          <p className="text-white text-lg">
+          <p className="text-white text-lg font-light">
             Transitioning from a manufacturing background to pursuing a career
             as a front-end developer has been a transformative journey for me.
             My experience in manufacturing taught me the value of precision,
@@ -44,7 +44,7 @@ export default function About({ currentSection, setCurrentSection }) {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-8 p-4 w-1/2 mx-auto mt-8">
+      <div className="grid grid-cols-4 gap-8 p-4 w-1/2 mx-auto mt-8 mb-8">
         <HTMLLogo />
         <CSSLogo />
         <JavaScriptLogo />
