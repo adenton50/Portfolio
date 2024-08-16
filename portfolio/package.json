@@ -6,9 +6,9 @@
   "homepage": "https://adenton50.github.io/Portfolio/",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
-    "prepare-gh-pages": "xcopy /E /I dist\\* .\\",
-    "deploy": "npm run build && npm run prepare-gh-pages && git add . && git commit -m 'Deploy to GitHub Pages' && git push origin main",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
