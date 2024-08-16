@@ -15,6 +15,12 @@ export default function Projects({ setCurrentSection }) {
           <div className="w-64 h-4 bg-orange-600 relative left-24 rounded"></div>
         </div>
       </div>
+      <div className="grid grid-cols-1 gap-8 w-1/2 mx-auto mt-4 mb-4">
+        <img src="images/foodapp.png"></img>
+        <img src="images/movieapp.png"></img>
+        <img src="images/newsapp.png"></img>
+        <img src="images/weatherapp.png"></img>
+      </div>
     </div>
   );
 }
