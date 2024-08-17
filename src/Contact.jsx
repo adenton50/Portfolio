@@ -39,7 +39,7 @@ export default function Contact({ setCurrentSection }) {
             Contact
           </h1>
           <div className="flex justify-center mb-2">
-            <div className="w-64 h-4 bg-orange-600 relative left-24 rounded"></div>
+            <div className="w-32 md:w-64 h-4 bg-orange-600 relative left-24 rounded"></div>
           </div>
 
           <p className="mb-8 lg:mb-16 font-light  text-gray-200 sm:text-xl mt-24">

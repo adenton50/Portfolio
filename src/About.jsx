@@ -20,7 +20,7 @@ export default function About({ currentSection, setCurrentSection }) {
           <h1 className="text-5xl text-white font-medium mb-2 text-center">
             About
           </h1>
-          <div className="w-64 h-4 bg-orange-600 relative left-24 rounded"></div>
+          <div className="w-32 md:w-64 h-4 bg-orange-600 relative left-24 rounded"></div>
         </div>
         <UserIcon />
         <div className="md:w-1/2">

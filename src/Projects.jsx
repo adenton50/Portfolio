@@ -10,7 +10,7 @@ export default function Projects({ setCurrentSection }) {
       <div>
         <div className="flex justify-center items-center flex-col mt-8 px-16">
           <h1 className="text-5xl font-medium mb-2 text-center">Projects</h1>
-          <div className="w-64 h-4 bg-orange-600 relative left-24 rounded"></div>
+          <div className="w-32 md:w-64 h-4 bg-orange-600 relative left-24 rounded"></div>
         </div>
       </div>
       <div className="grid grid-cols-1 gap-32 md:w-3/5 mx-auto mt-16 mb-8 px-4">
