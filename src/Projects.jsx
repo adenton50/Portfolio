@@ -13,7 +13,7 @@ export default function Projects({ setCurrentSection }) {
           <div className="w-64 h-4 bg-orange-600 relative left-24 rounded"></div>
         </div>
       </div>
-      <div className="grid grid-cols-1 gap-32 w-3/5 mx-auto mt-16 mb-8">
+      <div className="grid grid-cols-1 gap-32 md:w-3/5 mx-auto mt-16 mb-8 px-4">
         <div className="flex gap-4 flex-col">
           <img src="images/foodapp.png"></img>
           <h2 className="text-2xl underline">Adam's Recipe App</h2>
@@ -25,7 +25,7 @@ export default function Projects({ setCurrentSection }) {
           </p>
           <button
             type="button"
-            className="border-4 border-orange-600 rounded-md px-8 py-4 text-orange-500 text-xl hover:shadow-red-2xl transition-shadow duration-300 w-1/6"
+            className="border-4 border-orange-600 rounded-md px-8 py-4 text-orange-500 text-xl hover:shadow-red-2xl transition-shadow duration-300 w-1/2 md:w-1/6"
           >
             View App
           </button>
@@ -42,7 +42,7 @@ export default function Projects({ setCurrentSection }) {
           </p>
           <button
             type="button"
-            className="border-4 border-orange-600 rounded-md px-8 py-4 text-orange-500 text-xl hover:shadow-red-2xl transition-shadow duration-300 w-1/6"
+            className="border-4 border-orange-600 rounded-md px-8 py-4 text-orange-500 text-xl hover:shadow-red-2xl transition-shadow duration-300 w-1/2 md:w-1/6"
           >
             View App
           </button>
@@ -58,7 +58,7 @@ export default function Projects({ setCurrentSection }) {
           </p>
           <button
             type="button"
-            className="border-4 border-orange-600 rounded-md px-8 py-4 text-orange-500 text-xl hover:shadow-red-2xl transition-shadow duration-300 w-1/6"
+            className="border-4 border-orange-600 rounded-md px-8 py-4 text-orange-500 text-xl hover:shadow-red-2xl transition-shadow duration-300 w-1/2 md:w-1/6"
           >
             View App
           </button>
@@ -75,7 +75,7 @@ export default function Projects({ setCurrentSection }) {
           </p>
           <button
             type="button"
-            className="border-4 border-orange-600 rounded-md px-8 py-4 text-orange-500 text-xl hover:shadow-red-2xl transition-shadow duration-300 w-1/6"
+            className="border-4 border-orange-600 rounded-md px-8 py-4 text-orange-500 text-xl hover:shadow-red-2xl transition-shadow duration-300 w-1/2 md:w-1/6"
           >
             View App
           </button>
