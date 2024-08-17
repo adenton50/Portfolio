@@ -2,7 +2,7 @@ export default function Navbar({ currentSection, setCurrentSection }) {
   return (
     <div>
       <nav className="flex items-center justify-center bg-gray-700 h-16">
-        <ul className="flex flex-row gap-12 md:gap-24 font-medium text-lg">
+        <ul className="flex flex-row gap-8 md:gap-24 font-medium text-md md:text-lg">
           <li
             onClick={() => {
               setCurrentSection("welcome");
