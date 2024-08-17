@@ -23,8 +23,8 @@ export default function About({ currentSection, setCurrentSection }) {
           <div className="w-64 h-4 bg-orange-600 relative left-24 rounded"></div>
         </div>
         <UserIcon />
-        <div className="w-1/2">
-          <p className="text-white text-lg font-light">
+        <div className="md:w-1/2">
+          <p className="text-white md:text-lg font-light">
             Transitioning from a manufacturing background to pursuing a career
             as a front-end developer has been a transformative journey for me.
             My experience in manufacturing taught me the value of precision,
