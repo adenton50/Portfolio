@@ -34,7 +34,7 @@ export default function Contact({ setCurrentSection }) {
         setCurrentSection={setCurrentSection}
       />
       <section>
-        <div className="px-4 mx-auto max-w-screen-md mt-8">
+        <div className="px-4 mx-auto max-w-screen-md mt-8 mb-24">
           <h1 className="text-5xl text-white font-medium mb-2 text-center">
             Contact
           </h1>
