@@ -15,7 +15,7 @@ export default function About({ currentSection, setCurrentSection }) {
         currentSection={currentSection}
         setCurrentSection={setCurrentSection}
       />
-      <div className="flex justify-center items-center flex-col mt-8 px-16 gap-12">
+      <div className="flex justify-center items-center flex-col mt-8 px-4 md:px-16 gap-12">
         <div>
           <h1 className="text-5xl text-white font-medium mb-2 text-center">
             About
@@ -44,7 +44,7 @@ export default function About({ currentSection, setCurrentSection }) {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-8 p-4 w-1/2 mx-auto mt-8 mb-8">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 p-4 md:w-1/2 mx-auto mt-8 mb-8">
         <HTMLLogo />
         <CSSLogo />
         <JavaScriptLogo />
