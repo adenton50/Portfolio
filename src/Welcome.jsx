@@ -3,7 +3,7 @@ import Title from "./Title";
 
 export default function Welcome({ setCurrentSection }) {
   return (
-    <div className="flex flex-col justify-center items-center mx-auto mt-56 md:mt-96 px-2">
+    <div className="flex flex-col justify-center items-center mx-auto mt-56 md:mt-96 px-3">
       <Title />
       <button
         type="button"
