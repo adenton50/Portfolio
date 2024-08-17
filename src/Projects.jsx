@@ -15,7 +15,7 @@ export default function Projects({ setCurrentSection }) {
       </div>
       <div className="grid grid-cols-1 gap-32 md:w-3/5 mx-auto mt-16 mb-8 px-4">
         <div className="flex gap-4 flex-col">
-          <img src="https://adenton50.github.io/Portfolio/images/foodapp.png "></img>
+          <img src="./images/foodapp.png"></img>
           <h2 className="text-2xl underline">Adam's Recipe App</h2>
           <p>
             The Adam's Recipe App is designed to help users discover, save, and
