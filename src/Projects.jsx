@@ -15,7 +15,7 @@ export default function Projects({ setCurrentSection }) {
       </div>
       <div className="grid grid-cols-1 gap-32 md:w-3/5 mx-auto mt-16 mb-8 px-4">
         <div className="flex gap-4 flex-col">
-          <img src="Portfolio/images/foodapp.png"></img>
+          <img src="images/foodapp.png"></img>
           <h2 className="text-2xl underline">Adam's Recipe App</h2>
           <p>
             The Adam's Recipe App is designed to help users discover, save, and
@@ -31,7 +31,7 @@ export default function Projects({ setCurrentSection }) {
           </button>
         </div>
         <div className="flex gap-4 flex-col">
-          <img src="./images/movieapp.png"></img>
+          <img src="images/movieapp.png"></img>
           <h2 className="text-2xl underline">AdaMDb App</h2>
           <p>
             As a passionate movie enthusiast, I developed the AdaMDb Movie App
@@ -48,7 +48,7 @@ export default function Projects({ setCurrentSection }) {
           </button>
         </div>
         <div className="flex gap-4 flex-col">
-          <img src="../images/newsapp.png"></img>
+          <img src="images/newsapp.png"></img>
           <h2 className="text-2xl underline">Adam's News Letter</h2>
           <p>
             I created the Adam's News Letter App to keep you updated with the
