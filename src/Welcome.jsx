@@ -11,7 +11,7 @@ export default function Welcome({ setCurrentSection }) {
     }, 8000);
   }, []);
   return (
-    <div className="flex flex-col justify-center items-center mx-auto mt-72 md:mt-96 px-3">
+    <div className="flex flex-col justify-center items-center mx-auto mt-56 md:mt-96 px-3">
       <Title />
       <div
         className={`transition-opacity duration-1000 ease-in-out ${
