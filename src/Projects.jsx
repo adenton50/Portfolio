@@ -15,22 +15,6 @@ export default function Projects({ setCurrentSection }) {
       </div>
       <div className="grid grid-cols-1 gap-32 md:w-3/5 mx-auto mt-16 mb-8 px-4">
         <div className="flex gap-4 flex-col">
-          <img src="images/foodapp.png"></img>
-          <h2 className="text-2xl underline">Adam's Recipe App</h2>
-          <p>
-            The Adam's Recipe App is designed to help users discover, save, and
-            organize their favorite recipes. Built with React, this app features
-            a dynamic and interactive interface for browsing and managing
-            recipes.
-          </p>
-          <button
-            type="button"
-            className="border-4 border-orange-600 rounded-md px-4 py-2 md:px-8 md:py-4 text-orange-500 text-md md:text-xl hover:shadow-red-2xl transition-shadow duration-300 w-2/5 md:w-1/6"
-          >
-            View App
-          </button>
-        </div>
-        <div className="flex gap-4 flex-col">
           <img src="images/movieapp.png"></img>
           <h2 className="text-2xl underline">AdaMDb App</h2>
           <p>
@@ -85,6 +69,25 @@ export default function Projects({ setCurrentSection }) {
             }}
             type="button"
             className="border-4 border-orange-600 rounded-md px-4 py-2 md:px-8 md:py-4 text-orange-500 text-md md:text-xl hover:shadow-red-2xl transition-shadow duration-300 w-2/5 md:w-1/6"
+          >
+            View App
+          </button>
+        </div>
+        <div className="flex gap-4 flex-col">
+          <img src="images/foodapp.png"></img>
+          <h2 className="text-2xl underline">Adam's Recipe App</h2>
+          <p>
+            The Adam's Recipe App is designed to help users discover, save, and
+            organize their favorite recipes. Built with React, this app features
+            a dynamic and interactive interface for browsing and managing
+            recipes.
+          </p>
+          <button
+            type="button"
+            className="border-4 border-orange-600 rounded-md px-4 py-2 md:px-8 md:py-4 text-orange-500 text-md md:text-xl hover:shadow-red-2xl transition-shadow duration-300 w-2/5 md:w-1/6"
+            onClick={() => {
+              window.open("https://adenton50.github.io/RecipeApp/", "_blank");
+            }}
           >
             View App
           </button>
